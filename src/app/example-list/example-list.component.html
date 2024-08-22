@@ -1,0 +1,31 @@
+<h1>Names</h1>
+<div class="container">
+  <div class="search">
+    <input
+      type="text"
+      placeholder="Search Name or Sername"
+      [(ngModel)]="filterSearch"
+    />
+  </div>
+
+  <tr *ngFor="let person of persons | filter : filterSearch">
+    <button
+      [class.selected]="person === selectedPerson"
+      (click)="onSelect(person)"
+    >
+      <td>{{ person.name }}</td>
+      <td>{{ person.Sername }}</td>
+      <td>{{ person.Sex }}</td>
+      <td>{{ person.Phone }}</td>
+    </button>
+  </tr>
+
+  <div class="area">
+    <div *ngIf="selectedPerson">
+      <h2>{{ selectedPerson.name }}</h2>
+      <h2>{{ selectedPerson.Sername }}</h2>
+      <h2>{{ selectedPerson.info }}</h2>
+      <button>More info</button>
+    </div>
+  </div>
+</div>

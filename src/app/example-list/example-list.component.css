@@ -1,0 +1,77 @@
+.container {
+  margin: 0 10em 5em 10em;
+  padding: auto;
+  position: relative;
+  background-color: rgb(207, 207, 229);
+}
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 55px;
+  text-align: center;
+}
+button {
+  position: relative;
+  padding: 5px;
+  margin: 0;
+  background-color: lightblue;
+  cursor: pointer;
+  display: flex;
+  align-items: stretch;
+}
+button:hover {
+  color: #ffffff;
+  background-color: blueviolet;
+}
+button:active {
+  background-color: #525252;
+}
+.container button td {
+  color: black;
+  font-family: sans-serif;
+  font-size: 15px;
+  width: 100%;
+  margin: 15px;
+}
+tr {
+  display: grid;
+}
+
+.area h2 {
+  font-family: sans-serif;
+  color: gray;
+  display: inline-block;
+  padding: 5px;
+  margin: 15px;
+  color: blue;
+  border-style: none;
+}
+.area button {
+  border: none;
+  background-color: #a39c9c;
+  color: rgb(15, 214, 214);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 100%;
+  box-shadow: 0 8px 8px 0;
+}
+.area button:hover {
+  background-color: rgb(60, 92, 90);
+}
+.area button:active {
+  background-color: #b98e8e;
+  transform: translateY(2px);
+}
+input {
+  width: 450px;
+  padding: 2px 20px;
+  margin: 10px 0px;
+  height: 35px;
+}
+
+.table .mat-sort-header-container {
+  position: relative;
+  align-items: center;
+}

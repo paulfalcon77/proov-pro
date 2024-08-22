@@ -1,0 +1,41 @@
+.main-body {
+  padding-top: 20px;
+  margin: 0 auto;
+  max-width: 1248px;
+  max-form-field {
+    width: 100%;
+  }
+}
+table {
+  width: 100%;
+}
+
+.mat-mdc-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+td,
+th {
+  width: 20%;
+}
+
+.add_button {
+  border: none;
+  text-align: center;
+  width: 100%;
+  position: static;
+  padding: 8px 2px;
+  margin: 0;
+  background-color: lightblue;
+  cursor: pointer;
+
+  align-items: stretch;
+}
+.add_button:hover {
+  color: #6c5d5d;
+  background-color: lavender;
+}
+.add_button:active {
+  background-color: #525252;
+}
